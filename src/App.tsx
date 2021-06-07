@@ -23,7 +23,7 @@ const App = () => {
           setError("User does not have public repos.");
           return;
         }
-        console.log(data);
+        // console.log(data);
         setItemsData(data);
       } catch (e) {
         console.warn(e);
